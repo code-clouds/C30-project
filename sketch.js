@@ -34,7 +34,7 @@ function setup() {
   createCanvas(windowWidth, windowHeight);
   engine = Engine.create();
   world = engine.world;
-  frameRate(80);
+  frameRate(81);
 
   ground = new Base(0, height - 10, width * 2, 20);
   leftWall = new Base(100, height - 300, 200, height / 2 + 100);
